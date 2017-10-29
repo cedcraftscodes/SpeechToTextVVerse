@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xyz.icorrelate.speechtotextvverse.MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text to Speech"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:id="@+id/tvheader"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txttalk"
+        android:hint="Enter Text"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/tvheader"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Speak"
+        android:id="@+id/btnspeak"
+        android:layout_below="@id/txttalk"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Talk"
+        android:id="@+id/btntalk"/>
+
+
+
+</RelativeLayout>
